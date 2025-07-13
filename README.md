@@ -38,3 +38,8 @@ NOTE: for every variable the first value of the specification (i.e. the key's va
 "Died": ["binary", ["Not Died", "Died"]]
 1) the second item of the specification list is a list containing the binary categories
 
+The rd_seed option can be:
+1) "standard": seed is 42
+2) "random": pseudo random at instantiation
+3) OR the seed can be a value that can be converted to an integer
+
